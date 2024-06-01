@@ -1,6 +1,4 @@
-use crate::features::tuples::tuples::Tuple;
-
-pub mod features;
+use raytracer::Tuple;
 
 fn main() {
     println!("Hello World");

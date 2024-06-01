@@ -1,5 +1,3 @@
-pub mod tuples {
-
 pub struct Tuple(pub f64, pub f64, pub f64, pub f64);
 
     trait Point {
@@ -21,7 +19,6 @@ pub struct Tuple(pub f64, pub f64, pub f64, pub f64);
             if self.3 == 0.0 { return true } else { return false };
         }
     }
-}
 /*fn main() {
     let a_point = Tuple(4.3, -4.2, 3.1, 1.0);
     let a_vector = Tuple(4.3, -4.2, 3.1, 0.0);
